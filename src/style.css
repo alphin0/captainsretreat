@@ -771,6 +771,11 @@ footer {
     height: 230px;
     min-height: 230px;
   }
+
+  .waves {
+    width: 300%;
+    margin-left: -100%;
+  }
 }
 
 /* Animations */
