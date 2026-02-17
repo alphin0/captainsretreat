@@ -776,6 +776,18 @@ footer {
     width: 300%;
     margin-left: -100%;
   }
+
+  /* Hide custom follow button on mobile to avoid duplication with embed */
+  .instagram-text .btn-primary {
+    display: none;
+  }
+
+  /* Fix Instagram card alignment on mobile */
+  .instagram-card {
+    transform: none;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /* Animations */
